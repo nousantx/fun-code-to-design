@@ -23,7 +23,7 @@ export default function generateColor(colors: string[]) {
       const bgClassName = `.bg-${category}-${i}`;
 
       // generated background color and opacity
-      // `background-color: rgb(var(--color) / var(--bg-opacity, 1));`
+      // `background-color: rgb(var(--tx_{color}-{range}) / var(--bg-opacity, 1));`
       const bgColorValue = `bg-color-[rgb(var(--tx_${category}-${i})\\_/\\_var(--bg-opacity,\\_1))]`;
 
       genColor[bgClassName] = bgColorValue;

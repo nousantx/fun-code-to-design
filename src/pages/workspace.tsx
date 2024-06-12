@@ -1,12 +1,12 @@
-import Design from "@design";
+import { CanvasContainer } from "@design/index";
 import GenerateImage from "@utils/downloader";
-import { styler } from "@styles";
+import { styler } from "@styles/index";
 
 const WorkSpace = () => {
   styler();
   return (
     <article className="pt-2rem">
-      <Design />
+      <CanvasContainer />
       <button
         onClick={() => {
           GenerateImage();

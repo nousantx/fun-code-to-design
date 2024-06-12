@@ -19,11 +19,17 @@ export const styles = {
   //? global styles
   body: "bg-$neutral-100 tc-$neutral-900",
   button: "outline-none border-none bg-none tc-inherit",
-  "h2,h2,h3": ".tracking-tight",
-  h1: ".text-4xl .font-bold",
-  h2: ".text-3xl .font-bold",
-  h3: ".text-2xl .font-semibold",
-  h4: ".text-xl .font-medium",
+
+  //   "h2,h2,h3": ".tracking-tight",
+  //   h1: ".text-4xl .font-bold",
+  //   h2: ".text-3xl .font-bold",
+  //   h3: ".text-2xl .font-semibold",
+  //   h4: ".text-xl .font-medium",
+  h1: "fs-2.5rem ls--0.030em .leading-10 .font-extrabold",
+  h2: "fs-2.25rem ls--0.025em .font-bold",
+  h3: "fs-1.75rem ls--0.025em .font-bold",
+  h4: "fs-1.25rem ls--0.025em .font-semibold",
+
   a: "tc-inherit td-none",
   p: ".text-base tc-$neutral-700",
   span: "fs-inherit",

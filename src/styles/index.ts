@@ -6,7 +6,7 @@ import { color } from "./lib/utils/color";
 export const styler = () => {
   React.useLayoutEffect(() => {
     use({ property: props });
-    makeStyles( styles, color);
+    makeStyles(styles, color);
     tenoxui();
   }, []);
 };
